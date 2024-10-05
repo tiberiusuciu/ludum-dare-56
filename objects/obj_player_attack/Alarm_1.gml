@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 with (obj_creature) {
-	show_debug_message(string("string"))
 	// Collision detected
 	if (place_meeting(x, y, other)) {
 	    life -= obj_player.attack_damage

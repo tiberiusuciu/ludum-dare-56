@@ -9,5 +9,7 @@ attack_fatigue = false;
 attack_rate = game_get_speed(gamespeed_fps) * 3;
 attack_damage = 1;
 parent_spawner = noone;
+is_walking = false;
+state = "wander";
 
 depth = -y;

@@ -8,6 +8,9 @@ player_stamina_drain = .2;
 player_stamina_regen = .05;
 player_run_stutter = false;
 play_death_animation = false;
+
+// items
+bone_count = 0;
 // transition_to_credits_ready = false;
 // make_fade = false;
 // fade_amount = 1;
