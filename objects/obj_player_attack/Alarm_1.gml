@@ -24,5 +24,6 @@ with (obj_creature) {
 		hspd = _knockback_x;
 		vspd = _knockback_y;
 		is_walking = false;
+		state = "attack"
 	}
 }
