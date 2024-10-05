@@ -16,7 +16,7 @@ if (instance_exists(target)) {
 		y = clamp(y, height / 2, room_height - height / 2)
 	}
 	
-	/*
+	
 	if (shake && !shake_in_progress) {
 		shake_in_progress = true;
 		alarm[0] = game_get_speed(gamespeed_fps) * shake_duration;
@@ -24,7 +24,6 @@ if (instance_exists(target)) {
 	if (shake_in_progress) {
 		x += random_range(-shake_intensity, shake_intensity);
 	}
-	*/
 	
 	
 	camera_set_view_pos(view_camera[0], x - width / 2, y - height / 2);

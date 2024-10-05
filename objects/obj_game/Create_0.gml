@@ -8,6 +8,7 @@ player_stamina_drain = .2;
 player_stamina_regen = .05;
 player_run_stutter = false;
 play_death_animation = false;
+has_died = false;
 
 // items
 bone_count = 0;
