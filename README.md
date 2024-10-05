@@ -3,5 +3,4 @@
 
 
 ### Progress at the end of day 1
-https://github.com/user-attachments/assets/6fb52d00-82dc-4df6-857d-24a6d04ddf17
-
+![ScreenRecording2024-10-05023636-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/98f6b7bc-b71b-47cb-8451-10b26c3885f5)
