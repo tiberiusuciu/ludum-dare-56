@@ -22,8 +22,8 @@ if (state == "attack") {
 		attack_fatigue = true;
 		alarm[2] = attack_rate;
 	} else if (attack_fatigue && (hspd == 0 && vspd == 0) && (abs(x - obj_player.x) >= 32 || abs(y - obj_player.y) >= 32)) {
-		hspd = lengthdir_x(spd * .15, _angle);
-		vspd = lengthdir_y(spd * .15, _angle);
+		hspd = lengthdir_x(spd * .25, _angle);
+		vspd = lengthdir_y(spd * .25, _angle);
 	}
 }
 
