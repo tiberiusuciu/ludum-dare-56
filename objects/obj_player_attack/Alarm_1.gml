@@ -23,5 +23,6 @@ with (obj_creature) {
 		// Apply knockback to the enemy's speed
 		hspd = _knockback_x;
 		vspd = _knockback_y;
+		is_walking = false;
 	}
 }

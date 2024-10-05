@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Walking logic
 // You can write your code in this editor
 hspd = random_range(-1, 1) * spd;
 vspd = random_range(-1, 1) * spd;

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if (state == "wander" && !is_walking && alarm[0] == -1) {
-	alarm[0] = game_get_speed(gamespeed_fps) * random_range(2, 5)	
+	alarm[0] = game_get_speed(gamespeed_fps) * random_range(.5, 5)	
 }
 
 if (place_meeting(x + hspd, y, obj_solid)) {
