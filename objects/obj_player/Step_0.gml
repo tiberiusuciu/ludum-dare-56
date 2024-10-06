@@ -41,7 +41,7 @@ if (obj_game.player_stamina > obj_game.player_max_stamina) {
 	obj_game.player_stamina = obj_game.player_max_stamina
 }
 
-if (_attack_pressed && !attack_fatigue) {
+if (_attack_pressed && !attack_fatigue && !obj_crafter.is_crafting) {
 	var _mx = mouse_x;
 	var _my = mouse_y;
 	var _angle = point_direction(x, y, _mx, _my);

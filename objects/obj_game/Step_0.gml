@@ -9,5 +9,7 @@ if (player_health <= 0) {
 	has_died = true;
 	alarm[1] = game_get_speed(gamespeed_fps) * 4;
 	// maybe display what has been lost before
-	bone_count = 0;
+	
+	
+	obj_inventory.inventory._inventory_items = [];
 }

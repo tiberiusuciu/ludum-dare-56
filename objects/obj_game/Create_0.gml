@@ -11,7 +11,6 @@ play_death_animation = false;
 has_died = false;
 
 // items
-bone_count = 0;
 // transition_to_credits_ready = false;
 // make_fade = false;
 // fade_amount = 1;
