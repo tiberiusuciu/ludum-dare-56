@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
-
-name = "Bone";
-target_sprite = spr_bone;
+sprite_index = target_sprite;
+draw_self()

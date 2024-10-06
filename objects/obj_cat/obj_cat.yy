@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bone_item",
+  "%Name":"obj_cat",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bone_item",
+  "name":"obj_cat",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_item",
-    "path":"objects/obj_item/obj_item.yy",
+    "name":"obj_creature",
+    "path":"objects/obj_creature/obj_creature.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bone",
-    "path":"sprites/spr_bone/spr_bone.yy",
+    "name":"spr_cat",
+    "path":"sprites/spr_cat/spr_cat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

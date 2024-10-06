@@ -14,4 +14,11 @@ parent_spawner = noone;
 is_walking = false;
 state = "wander";
 
+common_drop = "Bone";
+uncommon_drop = "Coin";
+rare_drop = "";
+common_sprite = spr_bone;
+uncommon_sprite = spr_coin;
+rare_sprite = noone;
+
 depth = -y;

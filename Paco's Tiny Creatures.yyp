@@ -35,8 +35,8 @@
   "name":"Paco's Tiny Creatures",
   "resources":[
     {"id":{"name":"fnt_proggy","path":"fonts/fnt_proggy/fnt_proggy.yy",},},
-    {"id":{"name":"obj_bone_item","path":"objects/obj_bone_item/obj_bone_item.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},},
     {"id":{"name":"obj_crafter","path":"objects/obj_crafter/obj_crafter.yy",},},
     {"id":{"name":"obj_creature","path":"objects/obj_creature/obj_creature.yy",},},
     {"id":{"name":"obj_dispenser","path":"objects/obj_dispenser/obj_dispenser.yy",},},
@@ -65,7 +65,7 @@
     {"id":{"name":"spr_bone","path":"sprites/spr_bone/spr_bone.yy",},},
     {"id":{"name":"spr_carrot","path":"sprites/spr_carrot/spr_carrot.yy",},},
     {"id":{"name":"spr_cat","path":"sprites/spr_cat/spr_cat.yy",},},
-    {"id":{"name":"spr_coint","path":"sprites/spr_coint/spr_coint.yy",},},
+    {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},},
     {"id":{"name":"spr_crafter","path":"sprites/spr_crafter/spr_crafter.yy",},},
     {"id":{"name":"spr_crafting_bg","path":"sprites/spr_crafting_bg/spr_crafting_bg.yy",},},
     {"id":{"name":"spr_crafting_ui","path":"sprites/spr_crafting_ui/spr_crafting_ui.yy",},},
