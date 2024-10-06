@@ -13,7 +13,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_solid",
+    "path":"objects/obj_solid/obj_solid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_crafter",
-    "path":"sprites/spr_crafter/spr_crafter.yy",
+    "name":"spr_crafting_table",
+    "path":"sprites/spr_crafting_table/spr_crafting_table.yy",
   },
   "spriteMaskId":null,
   "visible":true,

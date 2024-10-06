@@ -79,7 +79,7 @@ draw_text_transformed(
 draw_text_transformed(
 	ui_padding_x + (ui_border_size * 3) + 4 + ui_inventory_panel,
 	ui_padding_y + (ui_border_size * 3) + 4,
-	"Crafting",
+	"CREATION",
 	3,
 	3,
 	0
