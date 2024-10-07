@@ -8,3 +8,7 @@
 
 ### Progress at the end of day 2
 ![ScreenRecording2024-10-06035805-ezgif com-optimize](https://github.com/user-attachments/assets/c0190fac-b4f6-4203-a9fc-f16a70844511)
+
+### Progress at the end of day 3
+https://github.com/user-attachments/assets/3b0de83e-eb76-4912-820b-e9be38676a2e
+
