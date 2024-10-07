@@ -14,12 +14,14 @@ if (state == "attack") {
 	var _mx = obj_player.x;
 	var _my = obj_player.y;
 	var _angle = point_direction(x, y, _mx, _my);
-	var _attack_x = x + lengthdir_x(32, _angle); // 32 is the distance from the player
-	var _attack_y = y + lengthdir_y(32, _angle) - 10;
+	var _attack_x = x + lengthdir_x(attack_distance, _angle); // 32 is the distance from the player
+	var _attack_y = y + lengthdir_y(attack_distance, _angle) - 10;
 	if (!attack_fatigue) {
 		var _attack = instance_create_layer(_attack_x, _attack_y, "Instances", obj_enemy_attack);
 		_attack.source = self;
 		_attack.image_angle = _angle;
+		_attack.image_xscale = attack_x_scale;
+		_attack.image_yscale = attack_y_scale;
 		attack_fatigue = true;
 		alarm[2] = attack_rate;
 	} else if (attack_fatigue && (hspd == 0 && vspd == 0) && (abs(x - obj_player.x) >= 32 || abs(y - obj_player.y) >= 32)) {
@@ -53,6 +55,8 @@ else if (sign(hspd) == 1) {
 
 x += hspd;
 y += vspd;
+
+depth = -y;
 
 if (!is_walking) {
 	hspd = 0;

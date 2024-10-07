@@ -33,7 +33,7 @@ image_angle += _angle_diff * 0.1; // Adjust the multiplier for speed
 if (!instance_exists(source)) {
 	instance_destroy(self)
 }
-
+/*
 if (image_index == 7) {
 	
 	// Collision detected

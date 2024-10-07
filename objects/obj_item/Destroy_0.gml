@@ -8,7 +8,6 @@ var _items = obj_inventory.inventory.item_get();
 
 var _item_index = obj_inventory.inventory.item_find(name);
 if (_item_index >= 0) {
-	show_debug_message(json_stringify(_items))
 	var _item = _items[_item_index]
 	_item_text.text = $"{_item.name} ({_item.quantity})";	
 }

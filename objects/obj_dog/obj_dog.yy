@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cat",
-    "path":"sprites/spr_cat/spr_cat.yy",
+    "name":"spr_dog",
+    "path":"sprites/spr_dog/spr_dog.yy",
   },
   "spriteMaskId":null,
   "visible":true,

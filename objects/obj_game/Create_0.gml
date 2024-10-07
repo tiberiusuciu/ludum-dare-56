@@ -12,7 +12,13 @@ player_run_stutter = false;
 play_death_animation = false;
 has_died = false;
 
+view_collection_log = false;
+persistent = true;
+
 // items
-// transition_to_credits_ready = false;
-// make_fade = false;
-// fade_amount = 1;
+transition_to_credits_ready = false;
+make_fade = false;
+fade_amount = 0;
+time_since = 0;
+can_heal = true;
+heal_amount = .25;

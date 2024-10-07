@@ -127,4 +127,16 @@ function CollectionLog() constructor {
 		
 		return _index;
 	}
+	
+	get_unlocked_count = function() {
+		var _total = 0;
+		
+		for (var _i = 0; _i < array_length(collection_log); _i++) {
+			if (collection_log[_i].unlocked) {
+				_total++;
+			}
+		}
+		
+		return _total;
+	}
 }

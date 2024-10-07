@@ -21,4 +21,8 @@ common_sprite = spr_bone;
 uncommon_sprite = spr_coin;
 rare_sprite = noone;
 
+attack_x_scale = 1;
+attack_y_scale = 1;
+attack_distance = 32;
+
 depth = -y;

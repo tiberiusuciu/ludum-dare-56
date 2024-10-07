@@ -8,6 +8,7 @@ if ((abs(x - obj_player.x) <= 60 && abs(y - obj_player.y) <= 60)) {
 		with (obj_creature) {
 			state = "wander"
 		}
+		obj_game.view_collection_log = false;
 	}
 }
 else if (is_crafting = true) {

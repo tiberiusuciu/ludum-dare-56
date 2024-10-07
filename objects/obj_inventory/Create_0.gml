@@ -5,6 +5,7 @@ inventory = new Recipe();
 collectionLog = new CollectionLog();
 
 
+/*
 	inventory.item_add("Apple", 99, spr_apple);
 	inventory.item_add("Bone", 99, spr_bone);
 	inventory.item_add("Milk", 99, spr_milk);
@@ -36,6 +37,8 @@ collectionLog = new CollectionLog();
 	inventory.item_add("Tusk", 99, spr_tusk);
 	inventory.item_add("Water", 99, spr_water);
 	inventory.item_add("Wool", 99, spr_wool);
+
+*/
 /*
 	inventory.item_add("Night Vision", 2, spr_night_vision);
 	inventory.item_add("Carrot", 2, spr_carrot);
@@ -484,11 +487,6 @@ inventory.recipe_add("Bunny", [
 	}
 ], spr_bunny)
 
-show_debug_message(inventory);
-
-
-
-show_debug_message(inventory);
 
 target_craft = noone;
 
@@ -513,3 +511,7 @@ ui_inventory_margin = 20;
 
 ui_crafting_box = 98;
 ui_crafting_box_margin = 48;
+
+// Collection Log info //
+collection_columns = 7;
+collection_rows = 3;
