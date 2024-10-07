@@ -1,5 +1,6 @@
 # ludum-dare-56
 🏆 Ludum Dare 56 Theme: Tiny Creatures
+See entry [here](https://ldjam.com/events/ludum-dare/56/pacos-quest)
 
 
 ### Progress at the end of day 1
