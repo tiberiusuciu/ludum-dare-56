@@ -71,8 +71,8 @@ if (mouse_check_button_pressed(mb_left)) {
 			var _target_creature = collectionLog.get_log_element_index(target_craft)
 			if (_target_creature != -1) {
 				var _log = collectionLog.get_log();
-				show_debug_message(json_stringify(_target_creature))
 				inventory.item_craft(_log[_target_creature].sprite);
+				_log[_target_creature].unlocked = true;
 			}
 		}
 	}

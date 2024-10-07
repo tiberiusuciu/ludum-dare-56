@@ -6,6 +6,7 @@ function CollectionLog() constructor {
 		{
 			name: "Dog",
 			unlocked: false,
+			sprite: spr_dog,
 		},
 		{
 			name: "Cat",
@@ -15,78 +16,97 @@ function CollectionLog() constructor {
 		{
 			name: "Owl",
 			unlocked: false,
+			sprite: spr_owl,
 		},
 		{
 			name: "Cow",
 			unlocked: false,
+			sprite: spr_cow,
 		},
 		{
 			name: "Chicken",
 			unlocked: false,
+			sprite: spr_chicken,
 		},
 		{
 			name: "Pig",
 			unlocked: false,
+			sprite: spr_pig,
 		},
 		{
 			name: "Horse",
 			unlocked: false,
+			sprite: spr_horse,
 		},
 		{
 			name: "Penguin",
 			unlocked: false,
+			sprite: spr_penguin,
 		},
 		{
 			name: "Dragon",
 			unlocked: false,
+			sprite: spr_dragon,
 		},
 		{
 			name: "Whale",
 			unlocked: false,
+			sprite: spr_whale,
 		},
 		{
 			name: "Sheep",
 			unlocked: false,
+			sprite: spr_sheep,
 		},
 		{
 			name: "Fish",
 			unlocked: false,
+			sprite: spr_fish,
 		},
 		{
 			name: "Shark",
 			unlocked: false,
+			sprite: spr_shark,
 		},
 		{
 			name: "Monkey",
 			unlocked: false,
+			sprite: spr_monkey,
 		},
 		{
 			name: "Unicorn",
 			unlocked: false,
+			sprite: spr_unicorn,
 		},
 		{
 			name: "Crocodile",
 			unlocked: false,
+			sprite: spr_crocodile,
 		},
 		{
 			name: "Lion",
 			unlocked: false,
+			sprite: spr_lion,
 		},
 		{
 			name: "Wolf",
 			unlocked: false,
+			sprite: spr_wolf,
 		},
 		{
 			name: "Giraffe",
 			unlocked: false,
+			sprite: spr_giraffe,
 		},
 		{
 			name: "Elephant",
 			unlocked: false,
+			sprite: spr_elephant,
 		},
 		{
 			name: "Bunny",
 			unlocked: false,
+			sprite: spr_bunny,
 		},
 	]
 

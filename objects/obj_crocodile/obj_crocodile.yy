@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tiny_creature",
+  "%Name":"obj_crocodile",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tiny_creature",
+  "name":"obj_crocodile",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"creatures",
+    "path":"folders/Objects/creatures.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_creature",
+    "path":"objects/obj_creature/obj_creature.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_creature",
-    "path":"sprites/spr_creature/spr_creature.yy",
+    "name":"spr_crocodile",
+    "path":"sprites/spr_crocodile/spr_crocodile.yy",
   },
   "spriteMaskId":null,
   "visible":true,
