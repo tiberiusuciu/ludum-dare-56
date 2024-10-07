@@ -68,7 +68,12 @@ if (mouse_check_button_pressed(mb_left)) {
 	var _pos_y = ui_padding_y + (ui_border_size * 3) + 4 + 450;
 	if (is_between(_mx, _pos_x, _pos_x + 200)) {
 		if (is_between(_my, _pos_y, _pos_y + 75)) {
-			inventory.item_craft();
+			var _target_creature = collectionLog.get_log_element_index(target_craft)
+			if (_target_creature != -1) {
+				var _log = collectionLog.get_log();
+				show_debug_message(json_stringify(_target_creature))
+				inventory.item_craft(_log[_target_creature].sprite);
+			}
 		}
 	}
 }

@@ -10,6 +10,7 @@ function CollectionLog() constructor {
 		{
 			name: "Cat",
 			unlocked: false,
+			sprite: spr_cat,
 		},
 		{
 			name: "Owl",

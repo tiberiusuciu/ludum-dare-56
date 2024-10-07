@@ -277,6 +277,7 @@ var _result_text = "Nothing!"
 
 if (array_length(_potential_recipes) == 1) {
 	_result_text = _potential_recipes[0].name
+	target_craft = _potential_recipes[0].name;
 }
 
 text_align(fa_left, fa_middle);

@@ -97,10 +97,12 @@ function Inventory() constructor{
 		array_delete(_inventory_used_for_crafting, _index, 1);
 	}
 	
-	item_craft = function () {
+	item_craft = function (_creature_sprite) {
 		// add to collection log
-		// add an object to follow the user
 		clear_crafting()
+		var _tiny_creature = instance_create_layer(obj_crafter.x, obj_crafter.y, "Instances", obj_tiny_creature);
+		
+		_tiny_creature.sprite_index = _creature_sprite;
 	}
 	
 	toString = function() {

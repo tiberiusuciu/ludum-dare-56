@@ -2,12 +2,14 @@
 // You can write your code in this editor
 
 inventory = new Recipe();
+collectionLog = new CollectionLog();
 
-/*
+
 	inventory.item_add("Bone", 3, spr_bone);
 	inventory.item_add("Bone", 2, spr_bone);
 	inventory.item_add("Milk", 5, spr_milk);
 	inventory.item_add("Hair", 10, spr_hair);
+/*
 	inventory.item_add("Night Vision", 2, spr_night_vision);
 	inventory.item_add("Carrot", 2, spr_carrot);
 	inventory.item_add("Feather", 3, spr_feather);
@@ -82,6 +84,8 @@ show_debug_message(inventory);
 
 
 show_debug_message(inventory);
+
+target_craft = noone;
 
 
 // UI Information //

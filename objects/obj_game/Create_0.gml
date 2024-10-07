@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+randomize()
+
 player_health = 10;
 player_max_health = 10;
 player_stamina = 20;
