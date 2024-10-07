@@ -55,6 +55,14 @@ function Items() constructor {
 			sprite: spr_feather
 		},
 		{
+			name: "Wool",
+			sprite: spr_wool
+		},
+		{
+			name: "Crocs",
+			sprite: spr_crocs
+		},
+		{
 			name: "Fishing Bait",
 			sprite: spr_fishing_bait
 		},
